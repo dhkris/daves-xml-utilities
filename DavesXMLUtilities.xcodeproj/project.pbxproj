@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		630A8BE11C80C794005B3DD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BE01C80C794005B3DD6 /* main.swift */; };
+		630A8BF51C80C7C7005B3DD6 /* DXUXMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BE81C80C7C7005B3DD6 /* DXUXMLElement.swift */; };
+		630A8BF61C80C7C7005B3DD6 /* DXUXMLElementChained.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BE91C80C7C7005B3DD6 /* DXUXMLElementChained.swift */; };
+		630A8BF71C80C7C7005B3DD6 /* DXUXMLElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BEA1C80C7C7005B3DD6 /* DXUXMLElementType.swift */; };
+		630A8BF81C80C7C7005B3DD6 /* DXUXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BEB1C80C7C7005B3DD6 /* DXUXMLParser.swift */; };
+		630A8BF91C80C7C7005B3DD6 /* DXUXMLValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BEC1C80C7C7005B3DD6 /* DXUXMLValueType.swift */; };
+		630A8BFA1C80C7C7005B3DD6 /* DXUXPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BED1C80C7C7005B3DD6 /* DXUXPath.swift */; };
+		630A8BFB1C80C7C7005B3DD6 /* DXUXPathCompileError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BEE1C80C7C7005B3DD6 /* DXUXPathCompileError.swift */; };
+		630A8BFC1C80C7C7005B3DD6 /* DXUXPathInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BEF1C80C7C7005B3DD6 /* DXUXPathInstruction.swift */; };
+		630A8BFD1C80C7C7005B3DD6 /* DXUXPathOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BF01C80C7C7005B3DD6 /* DXUXPathOperation.swift */; };
+		630A8BFE1C80C7C7005B3DD6 /* DXUXPathQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BF11C80C7C7005B3DD6 /* DXUXPathQuery.swift */; };
+		630A8BFF1C80C7C7005B3DD6 /* DXUXPathTokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A8BF31C80C7C7005B3DD6 /* DXUXPathTokenType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,17 @@
 /* Begin PBXFileReference section */
 		630A8BDD1C80C794005B3DD6 /* DavesXMLUtilities */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DavesXMLUtilities; sourceTree = BUILT_PRODUCTS_DIR; };
 		630A8BE01C80C794005B3DD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		630A8BE81C80C7C7005B3DD6 /* DXUXMLElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXMLElement.swift; sourceTree = "<group>"; };
+		630A8BE91C80C7C7005B3DD6 /* DXUXMLElementChained.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXMLElementChained.swift; sourceTree = "<group>"; };
+		630A8BEA1C80C7C7005B3DD6 /* DXUXMLElementType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXMLElementType.swift; sourceTree = "<group>"; };
+		630A8BEB1C80C7C7005B3DD6 /* DXUXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXMLParser.swift; sourceTree = "<group>"; };
+		630A8BEC1C80C7C7005B3DD6 /* DXUXMLValueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXMLValueType.swift; sourceTree = "<group>"; };
+		630A8BED1C80C7C7005B3DD6 /* DXUXPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXPath.swift; sourceTree = "<group>"; };
+		630A8BEE1C80C7C7005B3DD6 /* DXUXPathCompileError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXPathCompileError.swift; sourceTree = "<group>"; };
+		630A8BEF1C80C7C7005B3DD6 /* DXUXPathInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXPathInstruction.swift; sourceTree = "<group>"; };
+		630A8BF01C80C7C7005B3DD6 /* DXUXPathOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXPathOperation.swift; sourceTree = "<group>"; };
+		630A8BF11C80C7C7005B3DD6 /* DXUXPathQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXPathQuery.swift; sourceTree = "<group>"; };
+		630A8BF31C80C7C7005B3DD6 /* DXUXPathTokenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXUXPathTokenType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,17 @@
 			isa = PBXGroup;
 			children = (
 				630A8BE01C80C794005B3DD6 /* main.swift */,
+				630A8BE81C80C7C7005B3DD6 /* DXUXMLElement.swift */,
+				630A8BE91C80C7C7005B3DD6 /* DXUXMLElementChained.swift */,
+				630A8BEA1C80C7C7005B3DD6 /* DXUXMLElementType.swift */,
+				630A8BEB1C80C7C7005B3DD6 /* DXUXMLParser.swift */,
+				630A8BEC1C80C7C7005B3DD6 /* DXUXMLValueType.swift */,
+				630A8BED1C80C7C7005B3DD6 /* DXUXPath.swift */,
+				630A8BEE1C80C7C7005B3DD6 /* DXUXPathCompileError.swift */,
+				630A8BEF1C80C7C7005B3DD6 /* DXUXPathInstruction.swift */,
+				630A8BF01C80C7C7005B3DD6 /* DXUXPathOperation.swift */,
+				630A8BF11C80C7C7005B3DD6 /* DXUXPathQuery.swift */,
+				630A8BF31C80C7C7005B3DD6 /* DXUXPathTokenType.swift */,
 			);
 			path = DavesXMLUtilities;
 			sourceTree = "<group>";
@@ -119,7 +152,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630A8BF61C80C7C7005B3DD6 /* DXUXMLElementChained.swift in Sources */,
+				630A8BFE1C80C7C7005B3DD6 /* DXUXPathQuery.swift in Sources */,
+				630A8BF81C80C7C7005B3DD6 /* DXUXMLParser.swift in Sources */,
+				630A8BFF1C80C7C7005B3DD6 /* DXUXPathTokenType.swift in Sources */,
+				630A8BFC1C80C7C7005B3DD6 /* DXUXPathInstruction.swift in Sources */,
+				630A8BF91C80C7C7005B3DD6 /* DXUXMLValueType.swift in Sources */,
+				630A8BF51C80C7C7005B3DD6 /* DXUXMLElement.swift in Sources */,
 				630A8BE11C80C794005B3DD6 /* main.swift in Sources */,
+				630A8BFA1C80C7C7005B3DD6 /* DXUXPath.swift in Sources */,
+				630A8BF71C80C7C7005B3DD6 /* DXUXMLElementType.swift in Sources */,
+				630A8BFD1C80C7C7005B3DD6 /* DXUXPathOperation.swift in Sources */,
+				630A8BFB1C80C7C7005B3DD6 /* DXUXPathCompileError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
